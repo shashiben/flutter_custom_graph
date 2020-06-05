@@ -1,3 +1,5 @@
+library customgraph;
+
 import 'package:customgraph/handlers.dart';
 import 'package:customgraph/model/graph.dart';
 import 'package:customgraph/painters/background_painter.dart';
@@ -7,8 +9,9 @@ import 'package:customgraph/utils/get_graph.dart';
 import 'package:customgraph/widgets/column_text.dart';
 import 'package:customgraph/widgets/label_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
-class GraphWidget extends StatefulWidget {
+class CustomGraph extends StatefulWidget {
   final List<double> percentages;
   final List<String> xAxisValues;
   final List<String> yAxisValues;
@@ -32,7 +35,7 @@ class GraphWidget extends StatefulWidget {
   final int indicatorTextMultiplier;
   final int startingIndicator;
 
-  const GraphWidget(
+  const CustomGraph(
       {Key key,
       @required this.percentages,
       @required this.xAxisValues,
@@ -69,10 +72,10 @@ class GraphWidget extends StatefulWidget {
       : super(key: key);
 
   @override
-  _GraphWidgetState createState() => _GraphWidgetState();
+  _CustomGraphState createState() => _CustomGraphState();
 }
 
-class _GraphWidgetState extends State<GraphWidget>
+class _CustomGraphState extends State<CustomGraph>
     with SingleTickerProviderStateMixin {
   AnimationController _controller;
   double _initialRange;

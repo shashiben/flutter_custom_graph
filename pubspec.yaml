@@ -2,7 +2,7 @@ name: customgraph
 description: A new Flutter package for creating a custom graph with easy.
 version: 0.0.1
 author: Shashi Kumar<kumarshashi5294@gmail.com>
-homepage:
+homepage: https://github.com/shashiben/flutter_custom_graph
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
