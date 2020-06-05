@@ -3,7 +3,7 @@
 A Flutter package for creating a custom graph with easy.
 
 ### Show some :heart: and star the repo to support the project
- If you love this package fork the project and star it
+ If you love this package fork the project and star it.
 
 ## Installation
 
