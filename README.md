@@ -2,6 +2,11 @@
 
 A new Flutter package for creating a custom graph with easy.
 
+# Screenshots
+<p float="left">
+  <img src="https://github.com/shashiben/flutter_custom_graph/blob/master/screenshots/ss1.png"  />
+  <img src="https://github.com/shashiben/flutter_custom_graph/blob/master/screenshots/ss2.png"  />
+
 ## Getting Started
 
 This project is a starting point for a Dart
